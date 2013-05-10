@@ -7,7 +7,7 @@ body {
 }
 
 .container{width: 100%}
-.content{margin: 40px 0 0 0;}
+.content{margin: 69px 0 0 0;}
 
 .navbar-inner{background:#555;border:none;}
 .navbar .nav>li>a, .navbar .brand{color:rgb(219, 219, 219);text-shadow:none;}
@@ -19,6 +19,8 @@ body {
     top: 5px;
     right: 15px;
 }
+.close-header i{margin: 3px 0 0 0;}
+.twitter-follow-button{margin: 11px 81px 0 0;}
 .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container{width:100%;margin: 0 41px;}
 
 ::-moz-selection { background: #C07701; color: #fff; text-shadow: none; }
@@ -46,7 +48,7 @@ h2{color: #999}
 fill:#444;}
 .lite{margin: -42px 0 0 -19px;fill:#444;}
 .ff{margin: -29px 0 0 -38px;fill:#444;}
-.coins{margin: -13px 0 0 -49px;fill:rgba(226,115,1,0.4);}
+.coins{margin: -13px 0 0 -45px;fill:rgba(226,115,1,0.4);}
 .gears{margin: -31px 0 0 -48px;fill:#333;}
 .block{display: block;}
 .auto-center{margin: auto}
@@ -386,7 +388,7 @@ fill:#444;}
 }
 #supersized{display: none !important;}
 h4{color:#999;}
-.sol-x_logo{margin:-22px 7px 0 0;}
+.sol-x_logo{margin:6px 7px 0 0;}
 .sunframe{float: left;margin:-73px 0 0 0;}
 .home_title{margin: 27px 0 0 0 !important;}
 .hide{display: none}
