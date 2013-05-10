@@ -21,7 +21,7 @@ docpadConfig = {
 			]
 
 			# The default title of our website
-			title: "Your Website"
+			title: "RL Spike Mark 1"
 
 			# The website description (for SEO)
 			description: """
@@ -41,8 +41,12 @@ docpadConfig = {
 
 			# Styles
 			styles: [
-				"/styles/twitter-bootstrap.css"
-				"/styles/style.css"
+				"/assets/bootstrap/css/bootstrap-min.css"
+				"/assets/css/style.css"
+				"/assets/css/supersized.css"
+				"http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700"
+        		"http://fonts.googleapis.com/css?family=Patua+One"
+        		"http://fonts.googleapis.com/css?family=Allerta"
 			]
 
 			# Scripts
@@ -50,6 +54,12 @@ docpadConfig = {
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js",
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js",
 				"/scripts/script.js"
+				"/assets/js/jquery-countdown.js"
+        		"/assets/js/supersized.js"
+        		"/assets/js/supersized-init.js"
+       			"/assets/js/jquery-tweet.js"
+        		"/assets/js/jflickrfeed.js"
+        		"/assets/js/scripts.js"
 			]
 
 

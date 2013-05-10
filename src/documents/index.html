@@ -1,32 +1,204 @@
 ---
-layout: 'default'
-title: 'Home'
+layout: default
+title: home
 ---
 
-<!-- Main hero unit for a primary marketing message or call to action -->
-<div class="hero-unit">
-	<h1>Welcome to your new site!</h1>
-	<p>
-		We've copied over the
-		<a href="https://github.com/docpad/twitter-bootstrap.docpad">
-			Twitter Bootstrap Skeleton
-		</a>
-		for you already, which is what you're currently viewing.
+        <div class="page-container container-fluid">
 
-		Step through the guide below and we'll walk you through the process of working with your first docpad website :-)
-	</p>
-</div>
+            <!-- Show/hide button -->
+            <div class="row-fluid">
+                <div class="span10"></div>
+                <div class="show-hide span1">
+                    <a href="#" rel="tooltip" data-placement="bottom" data-original-title="Hide footer">-</a>
+                </div>
+                <div class="span1"></div>
+            </div>
 
-<!-- Example row of columns -->
-<div class="row" style="text-align:center;">
-	<div class="span6">
-		<h2>Docpad</h2>
-		<p>DocPad takes that good ol' simple approach of writing files and wraps it with the best modern innovations, providing an awesome intuitive, liberating and empowering solution for HTML5 web development.</p>
-		<p><a class="btn" href="https://github.com/bevry/docpad">Visit Website</a></p>
-	</div>
-	<div class="span6">
-		<h2>Twitter Bootstrap</h2>
-		<p>Bootstrap is a toolkit from Twitter designed to kickstart development of webapps and sites. It includes base CSS and HTML for typography, forms, buttons, tables, grids, navigation, and more.</p>
-		<p><a class="btn" href="http://twitter.github.com/bootstrap/">Visit Website</a></p>
-	</div>
-</div>
+            <!-- Page title -->
+            <div class="row-fluid">
+                <div class="page-title span12">
+                    <a href="/">
+                    <img class="pull-left sol-x_logo" src="/assets/img/logo_sol-x.png"alt="Sol-X logo"/><h1 class="home_title">RL Spike Mark 1</h1>
+                    </a>
+                    <h4>3D Printed Nano-Satellite Rocket Engine for Sale, soon.</h4>
+                </div>
+            </div>
+
+            <!-- Timer -->
+            <div class="row-fluid">
+                <div class="timer span12">
+                    <span class="days"></span> days /
+                    <span class="hours"></span> hours /
+                    <span class="minutes"></span> minutes /
+                    <span class="seconds"></span> seconds
+                </div>
+            </div>
+
+            <!-- Page description -->
+            <div class="row-fluid">
+                <div class="page-description span6">
+                    <p>We are the <a href="http://www.solarsystemexpress.com/">Sol-X</a> team competing in the <a href="http://www.openspaceuniversity.org/#!rocketchallenge/c22xk">DIY (3D Printed) Rocket Contest</a> by Open Space University and sponsored by <a href="https://sunglass.io/">Sunglass.io</a></p>
+                    <span class="subscription-form">
+                        <form class="form-inline" action="assets/sendmail.php" method="post">
+                            <input type="text" name="email" placeholder="Enter your email...">
+                            <button type="submit" class="btn">Subscribe</button>
+                        </form>
+                        <div class="success-message"></div>
+                        <div class="error-message"></div>
+                    </span>
+                </div>
+                <div class="span6">
+                    <iframe class="sunframe" width="494" height="315" src="https://sunglass.io/player/830b0d06-680d-4d9a-aa7e-2ea76a9605ec" frameborder="0" allowfullscreen mozallowfullscreen webkitallowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Subscription form -->
+            <div class="row-fluid">
+                <div class="span12 stat-row">
+                    <span class="span2"><h2>Force</h2>
+                        <span class="ff"><svg
+version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"> <path
+id="fast-forward-5-icon" d="M280.631,256.001L50,415.43V96.57L280.631,256.001z M231.369,96.57v70.936
+c66.201,45.764,128.016,88.495,128.016,88.495s-61.814,42.73-128.016,88.494v70.935L462,256.001L231.369,96.57z"/> </svg></span>
+                        <h3>2 N</h3>
+                    </span>
+                    <span class="span2"><h2>Material</h2>
+                        <span class="periodic-ti">
+                            <sup class="muted">22</sup><br/>
+                            <span class="ti">Ti</span><br/>
+                            <sub class="muted">47.867</sub>
+                        </span>
+                    </span>
+                    <span class="span2 cheap"><h2>Cheap</h2>
+                        <span class="coins"><svg
+version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"> <path
+id="coin-9-icon" d="M147.722,208.427c-53.97,0-97.722,21.25-97.722,47.461s43.752,47.457,97.722,47.457
+c53.971,0,97.723-21.246,97.723-47.457S201.692,208.427,147.722,208.427z M154.397,280.159l-0.003,6.355l-12.389-0.021v-5.684
+c-5.942-0.383-13.795-1.979-19.578-4.328l4.101-10.473c5.365,1.547,12.751,3.42,19.131,3.43c1.407,0.004,2.766-0.086,4.045-0.287
+c6.181-0.98,7.739-5.053,0.465-7.365c-6.143-2.037-27.293-4.191-27.291-17.174c0.001-5.379,5.498-12.76,19.139-14.924l0.002-6.451
+l12.39,0.02l-0.001,5.922c5.308,0.279,10.724,1.004,16.975,2.449c-0.624,2.006-3.328,10.705-3.328,10.705
+c-4.026-1.012-10.426-2.729-16.765-2.74c-0.463,0-0.926,0.008-1.39,0.027c-8.371,0.33-8.975,4.816-3.331,6.898
+c11.579,3.863,28.349,7.158,28.345,18.623C174.929,274.001,165.527,279.032,154.397,280.159z M223.039,302.247
+c9.046-4.395,16.559-9.531,22.405-15.305v18.889c0,26.209-43.752,47.459-97.723,47.459C93.752,353.29,50,332.04,50,305.831v-18.889
+c5.847,5.773,13.357,10.91,22.405,15.305c20.356,9.887,47.104,15.33,75.316,15.33C175.936,317.577,202.683,312.134,223.039,302.247z
+M223.039,402.132c9.046-4.393,16.559-9.531,22.405-15.303v19.227c0,26.211-43.752,47.459-97.723,47.459
+c-53.97,0-97.722-21.248-97.722-47.459v-19.227c5.847,5.771,13.357,10.91,22.405,15.303c20.356,9.887,47.104,15.332,75.316,15.332
+C175.936,417.464,202.683,412.019,223.039,402.132z M223.039,352.19c9.046-4.395,16.559-9.533,22.405-15.305v18.887
+c0,26.211-43.752,47.459-97.723,47.459c-53.97,0-97.722-21.248-97.722-47.459v-18.887c5.847,5.771,13.357,10.91,22.405,15.305
+c20.356,9.885,47.104,15.33,75.316,15.33C175.936,367.521,202.683,362.075,223.039,352.19z M439.595,402.132
+c9.046-4.393,16.559-9.531,22.405-15.303v19.227c0,26.211-43.752,47.459-97.723,47.459c-53.97,0-97.722-21.248-97.722-47.459
+v-19.227c5.847,5.771,13.357,10.91,22.405,15.303c20.356,9.887,47.104,15.332,75.316,15.332
+C392.491,417.464,419.238,412.019,439.595,402.132z M439.595,302.247c9.046-4.395,16.559-9.531,22.405-15.305v18.889
+c0,26.209-43.752,47.459-97.723,47.459c-53.97,0-97.722-21.25-97.722-47.459v-18.889c5.847,5.773,13.357,10.91,22.405,15.305
+c20.356,9.887,47.104,15.33,75.316,15.33C392.491,317.577,419.238,312.134,439.595,302.247z M439.595,352.19
+c9.046-4.395,16.559-9.533,22.405-15.305v18.887c0,26.211-43.752,47.459-97.723,47.459c-53.97,0-97.722-21.248-97.722-47.459
+v-18.887c5.847,5.771,13.357,10.91,22.405,15.305c20.356,9.885,47.104,15.33,75.316,15.33
+C392.491,367.521,419.238,362.075,439.595,352.19z M439.595,252.247c9.046-4.395,16.559-9.531,22.405-15.305v18.889
+c0,26.209-43.752,47.459-97.723,47.459c-53.97,0-97.722-21.25-97.722-47.459v-18.889c5.847,5.773,13.357,10.91,22.405,15.305
+c20.356,9.887,47.104,15.33,75.316,15.33C392.491,267.577,419.238,262.134,439.595,252.247z M364.277,58.485
+c-53.97,0-97.722,21.248-97.722,47.461c0,26.209,43.752,47.457,97.722,47.457c53.971,0,97.723-21.248,97.723-47.457
+C462,79.733,418.248,58.485,364.277,58.485z M370.953,130.218l-0.003,6.355l-12.389-0.021v-5.686
+c-5.942-0.383-13.795-1.979-19.578-4.326l4.101-10.475c5.365,1.547,12.751,3.42,19.131,3.432c1.407,0.002,2.766-0.086,4.045-0.289
+c6.181-0.979,7.739-5.051,0.465-7.363c-6.143-2.037-27.293-4.193-27.291-17.174c0.001-5.379,5.498-12.762,19.139-14.924l0.002-6.453
+l12.39,0.021l-0.001,5.92c5.308,0.279,10.724,1.004,16.975,2.451c-0.624,2.006-3.328,10.703-3.328,10.703
+c-4.026-1.012-10.426-2.729-16.765-2.74c-0.463,0-0.926,0.01-1.39,0.027c-8.371,0.33-8.975,4.816-3.331,6.898
+c11.579,3.865,28.349,7.16,28.345,18.623C391.484,124.06,382.083,129.091,370.953,130.218z M439.595,152.304
+c9.046-4.395,16.559-9.529,22.405-15.303v18.887c0,26.211-43.752,47.459-97.723,47.459c-53.97,0-97.722-21.248-97.722-47.459
+v-18.887c5.847,5.773,13.357,10.908,22.405,15.303c20.356,9.887,47.104,15.332,75.316,15.332
+C392.491,167.636,419.238,162.19,439.595,152.304z M439.595,202.247c9.046-4.393,16.559-9.531,22.405-15.305v18.887
+c0,26.211-43.752,47.461-97.723,47.461c-53.97,0-97.722-21.25-97.722-47.461v-18.887c5.847,5.773,13.357,10.912,22.405,15.305
+c20.356,9.887,47.104,15.33,75.316,15.33C392.491,217.577,419.238,212.134,439.595,202.247z"/> </svg></span>
+                        <h3>$49</h3>
+                        <sup>Ceramic Copy</sup></span>
+                    <span class="span2"><h2>Stable</h2>
+                        <span class="gears"><svg
+version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"> <path
+id="gear-9-icon" d="M333.813,247.681v-38.223l-20.652-7.344c-7.875-2.799-14.211-8.814-17.41-16.535
+c-0.002-0.002-0.004-0.006-0.004-0.01c-3.211-7.738-2.986-16.475,0.609-24.041l9.408-19.788l-27.029-27.027l-19.783,9.404
+c-7.562,3.596-16.312,3.822-24.047,0.615c-0.004-0.004-0.008-0.004-0.01-0.004c-7.727-3.203-13.73-9.531-16.533-17.412
+l-7.344-20.654h-38.223l-7.346,20.654c-2.801,7.873-8.812,14.211-16.532,17.412c-0.002,0-0.006,0.002-0.01,0.004
+c-7.74,3.209-16.477,2.984-24.045-0.613l-19.785-9.406L78.049,141.74l9.406,19.784c3.596,7.562,3.82,16.312,0.613,24.049
+c-0.002,0.002-0.002,0.004-0.006,0.01c-3.201,7.723-9.529,13.729-17.408,16.531L50,209.458v38.223l20.654,7.344
+c7.873,2.801,14.209,8.814,17.41,16.533c0.002,0.004,0.002,0.008,0.004,0.01c3.209,7.74,2.984,16.477-0.611,24.045l-9.408,19.787
+l27.029,27.025l19.785-9.402c7.562-3.596,16.312-3.82,24.049-0.613c0.002,0.002,0.006,0.004,0.008,0.004
+c7.724,3.203,13.728,9.527,16.53,17.408l7.346,20.653h38.223l7.299-20.521c2.824-7.947,8.891-14.344,16.678-17.582
+c0.004-0.002,0.008-0.002,0.012-0.004c7.666-3.189,16.32-2.969,23.818,0.594l19.91,9.463l27.029-27.025l-9.412-19.799
+c-3.592-7.555-3.814-16.295-0.609-24.023c0.002-0.004,0.004-0.006,0.004-0.01c3.207-7.732,9.539-13.742,17.426-16.547
+L333.813,247.681z M191.907,280.61c-28.742,0-52.042-23.301-52.042-52.041c0-28.742,23.3-52.043,52.042-52.043
+c28.74,0,52.041,23.301,52.041,52.043C243.948,257.31,220.647,280.61,191.907,280.61z M462,360.06v-20.32l-10.979-3.902
+c-4.188-1.488-7.557-4.688-9.258-8.791c-0.002,0-0.002-0.002-0.002-0.004c-1.707-4.115-1.586-8.76,0.326-12.783l5-10.52
+l-14.369-14.367l-10.518,5c-4.02,1.91-8.67,2.031-12.783,0.326c-0.002,0-0.004,0-0.006,0c-4.105-1.705-7.299-5.068-8.787-9.258
+l-3.904-10.98H376.4l-3.904,10.98c-1.49,4.186-4.686,7.555-8.789,9.258c-0.002,0-0.004,0-0.006,0
+c-4.112,1.705-8.757,1.586-12.78-0.326l-10.52-5l-14.369,14.367l5.002,10.52c1.91,4.02,2.029,8.672,0.324,12.783
+c0,0.002,0,0.004-0.002,0.006c-1.701,4.107-5.066,7.299-9.254,8.789l-10.98,3.902v20.32l10.98,3.903
+c4.186,1.488,7.555,4.684,9.254,8.789c0.002,0.002,0.002,0.004,0.002,0.006c1.707,4.113,1.588,8.758-0.324,12.781l-5.002,10.52
+l14.369,14.367l10.52-4.998c4.02-1.912,8.67-2.031,12.782-0.326c0.002,0,0.002,0.002,0.004,0.002
+c4.107,1.701,7.297,5.064,8.789,9.252l3.904,10.982h20.32l3.879-10.91c1.502-4.225,4.727-7.625,8.867-9.348
+c0.002,0,0.004-0.002,0.006-0.002c4.074-1.695,8.676-1.578,12.662,0.316l10.584,5.031l14.369-14.367l-5.002-10.525
+c-1.91-4.018-2.029-8.664-0.326-12.771c0-0.002,0.002-0.004,0.002-0.004c1.707-4.111,5.072-7.307,9.264-8.799L462,360.06z
+M386.561,377.564c-15.279,0-27.665-12.387-27.665-27.665c0-15.279,12.386-27.666,27.665-27.666s27.666,12.387,27.666,27.666
+C414.227,365.178,401.84,377.564,386.561,377.564z"/> </svg></span>
+                        <h1 class="zero">0</h1>
+                        Moving Parts</span>
+                    <span class="span2"><h2>Small</h2>
+                        <span class="cube"><svg
+version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"> <path
+id="square-dashed-rounded-icon" d="M304,50v50h-96V50H304z M304,462v-50h-96v50H304z M50,303.528h50v-96H50V303.528z M354,100
+h33c13.807,0,25,11.192,25,25v32.528h50V100c0-27.614-22.386-50-50-50h-58V100z M412,353.528V387c0,13.808-11.193,25-25,25h-33v50
+h58c27.614,0,50-22.386,50-50v-58.472H412z M158,412h-33c-13.807,0-25-11.192-25-25v-33.472H50V412c0,27.614,22.386,50,50,50h58V412
+z M100,157.528V125c0-13.808,11.193-25,25-25h33V50h-58c-27.614,0-50,22.386-50,50v57.528H100z M462,207.528h-50v96h50V207.528z"/> </svg></span>
+                        <h5>50x<br/>50x<br/>30mm</h5>
+                    </span>
+                    <span class="span2"><h2>Light</h2>
+                        <span class="lite"><svg
+version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"> <path
+id="navigation-3-icon" d="M50.915,200.596l207.65,51.925L308.658,462L461.085,50L50.915,200.596z M186.756,193.332
+l205.454-75.434L291.838,219.671l-0.016-0.066L186.756,193.332z"/> </svg></span>
+                        <h4>40 grams</h4>
+                        Weight
+                    </span>
+                </div>
+            </div>
+
+            <!-- Progress bar -->
+            <div class="progress row-fluid">
+                <div class="bar" style="width: 0%;" data-percentage="52">
+                    <div>52%</div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer row-fluid">
+                <div class="tweets span4">
+                    <div class="show-tweets"></div>
+                </div>
+                <div class="span4">
+                    <ul class="flickr-feed"></ul>
+                </div>
+                <div class="social span4">
+                    <div class="social-links">
+                        <a class="facebook" href="https://www.facebook.com/SolX2010"></a>
+                        <a class="twitter" href="http://twitter.com/SolX2010"></a>
+                        <a class="youtube" href="http://www.youtube.com/user/SolX2Mars"></a>
+                        <a class="email" href="blaze.sanders@solarsystemexpress.com"></a>
+                    </div>
+                    <div class="copyright">
+                        &copy;2013<a href=""> RLspike.com</a> All rights reserved. <br/>
+                        Website &copy; <a href="http://massdistributionmedia.com/">MDM</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row-fluid">
+                <div class="span12 block">
+                    <iframe class="block auto-center" width="560" height="315" src="http://www.youtube.com/embed/vXi0DmcZWNc" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+
