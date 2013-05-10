@@ -7,8 +7,19 @@ body {
 }
 
 .container{width: 100%}
+.content{margin: 40px 0 0 0;}
 
-.navbar{display: none}
+.navbar-inner{background:#555;border:none;}
+.navbar .nav>li>a, .navbar .brand{color:rgb(219, 219, 219);text-shadow:none;}
+.fixed-logo{width: 26%;margin: -11px 6px -10px 0 !important;}
+.navbar .brand{width: 250px;}
+.close-header{
+    z-index: 1099;
+    position: fixed;
+    top: 5px;
+    right: 15px;
+}
+.navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container{width:100%;margin: 0 41px;}
 
 ::-moz-selection { background: #C07701; color: #fff; text-shadow: none; }
 ::selection { background: #C07701; color: #fff; text-shadow: none; }
@@ -378,6 +389,7 @@ h4{color:#999;}
 .sol-x_logo{margin:-22px 7px 0 0;}
 .sunframe{float: left;margin:-73px 0 0 0;}
 .home_title{margin: 27px 0 0 0 !important;}
+.hide{display: none}
 
 .social-links a { display: inline-block; width: 24px; height: 24px; margin: 0 8px 7px 0; vertical-align: middle; }
 

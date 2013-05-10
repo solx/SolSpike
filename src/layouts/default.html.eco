@@ -34,10 +34,13 @@
 </head>
 <body>
 	<!-- Markup -->
+	<span class="btn close-header hide"><i class=" icon-remove-circle"></i></span>
 	<div class="navbar navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container">
-				<a class="brand" href="/">Welcome</a>
+				<a class="brand" href="/">
+					<img class="pull-left sol-x_logo fixed-logo hide" src="/assets/img/logo_sol-x.png"alt="Sol-X logo"/>
+					RL Sol Spike Mark 1</a>
 				<ul class="nav">
 					<% for document in @getCollection('pages').toJSON(): %>
 						<li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active'  if @document.url is document.url %>">

@@ -145,4 +145,24 @@ jQuery(document).ready(function() {
         });
         return false;
     });
+
+    $("#popover").popover();
+
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 133){
+            $(".close-header, .fixed-logo").removeClass('hide').addClass('block');
+          } else {
+            $(".close-header, .fixed-logo").removeClass('block').addClass("hide");
+            $(".navbar").css("position", "fixed");
+          }
+
+        if($(this).scrollTop() === 0){
+            $('.close-header').css('opacity', 1);
+        }
+    });
+
+            $(".close-header").click(function() {
+                $(".close-header").addClass('hide').css('opacity', 0);
+                $(".navbar").css("position", "relative");
+    });
 });
