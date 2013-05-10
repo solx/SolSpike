@@ -54,7 +54,7 @@ fill:#444;}
 
 /* ----- Show/hide button (top of page) ----- */
 
-.show-hide {text-align: center;}
+.show-hide {text-align: center;position: fixed;float: right;right: 96px;}
 
 .show-hide a {
     display: inline-block;

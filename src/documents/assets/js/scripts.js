@@ -154,15 +154,21 @@ jQuery(document).ready(function() {
           } else {
             $(".close-header, .fixed-logo").removeClass('block').addClass("hide");
             $(".navbar").css("position", "fixed");
+            $('.show-hide').css("top", 40);
           }
 
-        if($(this).scrollTop() === 0){
-            $('.close-header').css('opacity', 1);
-        }
+       // if($(this).scrollTop() === 0){
+         //   $('.close-header').css('opacity', 1);
+        //}
     });
 
             $(".close-header").click(function() {
-                $(".close-header").addClass('hide').css('opacity', 0);
-                $(".navbar").css("position", "relative");
+              //  $(".close-header").addClass('hide').css('opacity', 0);
+                $(".navbar").toggle(); // css("position", "relative");
+                $('.show-hide').toggle(function(){
+                    $('.show-hide').css("top", 0);
+                }, function(){
+                    $('.show-hide').css("top", 40);
+                });
     });
 });
