@@ -39,6 +39,7 @@ fill:#444;}
 .gears{margin: -31px 0 0 -48px;fill:#333;}
 .block{display: block;}
 .auto-center{margin: auto}
+.clear{clear: both;}
 
 /* ----- Show/hide button (top of page) ----- */
 
@@ -374,8 +375,8 @@ fill:#444;}
 }
 #supersized{display: none !important;}
 h4{color:#999;}
-.sol-x_logo{margin: 0 7px 0 0;}
-.sunframe{float: right;margin:-73px 32px 0 0;}
+.sol-x_logo{margin:-22px 7px 0 0;}
+.sunframe{float: left;margin:-73px 0 0 0;}
 .home_title{margin: 27px 0 0 0 !important;}
 
 .social-links a { display: inline-block; width: 24px; height: 24px; margin: 0 8px 7px 0; vertical-align: middle; }

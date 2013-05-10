@@ -55,11 +55,12 @@ docpadConfig = {
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js",
 				"/scripts/script.js"
 				"/assets/js/jquery-countdown.js"
-        		"/assets/js/supersized.js"
-        		"/assets/js/supersized-init.js"
+        		#"/assets/js/supersized.js"
+        		#"/assets/js/supersized-init.js"
        			"/assets/js/jquery-tweet.js"
         		"/assets/js/jflickrfeed.js"
         		"/assets/js/scripts.js"
+        		"/assets/bootstrap/js/bootstrap-min.js"
 			]
 
 
