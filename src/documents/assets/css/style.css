@@ -12,15 +12,13 @@ body {
 .navbar-inner{background:#555;border:none;}
 .navbar .nav>li>a, .navbar .brand{color:rgb(219, 219, 219);text-shadow:none;}
 .fixed-logo{width: 26%;margin: -11px 6px -10px 0 !important;}
-.navbar .brand{width: 250px;}
-.close-header{
-    z-index: 1099;
-    position: fixed;
-    top: 5px;
-    right: 15px;
-}
+.navbar .brand{width: 250px;font-family: 'Patua One', cursive;}
+.close-header{z-index: 1099;position: fixed;top: 5px;right: 15px;}
+.fork-me{position: absolute; top: 40px; right: 0; border: 0;}
 .close-header i{margin: 3px 0 0 0;}
 .twitter-follow-button{margin: 11px 81px 0 0;}
+.comments input, .comments textarea{width: 98%;}
+.social-buttons{position: fixed;top: 111px;left: 1px;}
 .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container{width:100%;margin: 0 41px;}
 
 ::-moz-selection { background: #C07701; color: #fff; text-shadow: none; }

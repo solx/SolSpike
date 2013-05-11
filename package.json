@@ -1,9 +1,9 @@
 {
 	"name": "rlspike.docpad",
-	"version": "0.0.1-50",
+	"version": "0.0.1-51",
 	"private": true,
-	"description": "Hackerspace and tech blog.",
-	"homepage": "https://github.com/MassDistributionMedia/subset3.com",
+	"description": "Sol-X RL Spike Mark 1 website.",
+	"homepage": "https://github.com/MassDistributionMedia/rlspike.com",
 	"keywords": [
 		"docpad",
 		"hackerspace",
@@ -12,7 +12,7 @@
 		"maker",
 		"inventor",
 		"fablab",
-		"sol-x"
+		"sol-x","aerospike","3D-Print-steel","rocket-engine"
 	],
 	"author": "MDM Inc <mike@mdm.cm> (http://mdm.cm)",
 	"maintainers": [
@@ -22,11 +22,11 @@
 		"Michael Mooring <mike@mdm.cm> (http://mdm.cm)"
 	],
 	"bugs": {
-		"url": "https://github.com/MassDistributionMedia/subset3.com/issues"
+		"url": "https://github.com/MassDistributionMedia/rlspike.com/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/MassDistributionMedia/subset3.com.git"
+		"url": "https://github.com/MassDistributionMedia/rlspike.com.git"
 	},
 	"engines": {
 		"node": ">= 0.8.x",
