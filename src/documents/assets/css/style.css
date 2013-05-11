@@ -51,6 +51,7 @@ fill:#444;}
 .block{display: block;}
 .auto-center{margin: auto}
 .clear{clear: both;}
+.apiproxy{display: none;}
 
 /* ----- Show/hide button (top of page) ----- */
 
@@ -451,6 +452,21 @@ h4{color:#999;}
 }
 
 @media (max-width: 767px) {
+
+    .twitter-follow-button, .fork-me{
+        display: none;
+    }
+
+    .content {
+        margin: -33px 0 0 0;
+    }
+
+    .stat-row .span2 {
+        margin-bottom: 70px;
+    }
+
+    .sunframe{display: none;}
+    .apiproxy{display: block;margin: -50px 0 0 0;}
 
     .page-container {
         padding: 0 0 40px 0;

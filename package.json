@@ -1,6 +1,6 @@
 {
 	"name": "rlspike.docpad",
-	"version": "0.0.1-51",
+	"version": "0.0.1-52",
 	"private": true,
 	"description": "Sol-X RL Spike Mark 1 website.",
 	"homepage": "https://github.com/MassDistributionMedia/rlspike.com",
@@ -12,7 +12,10 @@
 		"maker",
 		"inventor",
 		"fablab",
-		"sol-x","aerospike","3D-Print-steel","rocket-engine"
+		"sol-x",
+		"aerospike",
+		"3D-Print-steel",
+		"rocket-engine"
 	],
 	"author": "MDM Inc <mike@mdm.cm> (http://mdm.cm)",
 	"maintainers": [
