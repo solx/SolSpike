@@ -20,8 +20,16 @@ footer i{opacity: 0.7;}
 .close-header i{margin: 3px 0 0 0;}
 .twitter-follow-button{margin: 11px 81px 0 0;}
 .comments input, .comments textarea{width: 98%;}
-.social-buttons{position: fixed;top: 111px;left: 1px;}
+.social-buttons{position: fixed;top: 111px;left: 1px;width: 81px}
 .ti-icon{margin:3px 0 0 0;}
+.slide{height: 405px;width:494px;display: block;margin: -82px 0 0 0;}
+.carousel-control{left:0;}
+.carousel-control.right{right: 0;}
+.carousel-indicators{position: absolute;z-index: 1}
+.carousel-indicators li{list-style:inside;}
+.sunglass-popo{color: #E8C407;}
+.sunglass-link{color: yellow}
+.sunglass-link:hover{color:#fff}
 .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container{width:100%;margin: 0 41px;}
 
 ::-moz-selection { background: #C07701; color: #fff; text-shadow: none; }
@@ -392,7 +400,7 @@ fill:#444;}
 }
 h4{color:#999;}
 .sol-x_logo{margin:6px 7px 0 0;}
-.sunframe{float: left;margin:-73px 0 0 0;}
+.sunframe{}
 .home_title{margin: 27px 0 0 0 !important;}
 .hide{display: none}
 #gallery img{width:77px;}
@@ -450,7 +458,7 @@ h4{color:#999;}
     }
 
     #gallery{margin: 28px 3px;}
-    
+
     .content {
         margin: -33px 0 0 0;
     }
