@@ -59,7 +59,6 @@
 
 		<section id="content" class="content">
 			<%- @content %>
-		</section>
 
             <!-- Progress bar -->
             <div class="progress row-fluid">
@@ -93,7 +92,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
 <!-- modal-gallery is the modal dialog used for the image gallery -->
 <div id="modal-gallery" class="modal modal-gallery hide fade" tabindex="-1">

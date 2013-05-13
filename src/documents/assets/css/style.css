@@ -8,7 +8,7 @@ body {
 
 .container{width: 100%}
 .content{margin: 69px 0 0 0;}
-.page-container{padding:0 !important}
+.page-container{padding-bottom:0 !important}
 footer i{opacity: 0.7;} 
 
 .navbar-inner{background:#555;border:none;}
@@ -16,7 +16,7 @@ footer i{opacity: 0.7;}
 .fixed-logo{width: 26%;margin: -11px 6px -10px 0 !important;}
 .navbar .brand{width: 250px;font-family: 'Patua One', cursive;}
 .close-header{z-index: 1099;position: fixed;top: 5px;right: 15px;}
-.fork-me{position:absolute;top:40px;right:0; float:right; border: 0;}
+.fork-me{position:absolute;top:40px;right:0;border: 0;}
 .close-header i{margin: 3px 0 0 0;}
 .twitter-follow-button{margin: 11px 81px 0 0;}
 .comments input, .comments textarea{width: 98%;}
@@ -390,7 +390,6 @@ fill:#444;}
 .social-links {
     margin-right: 40px;
 }
-#supersized{display: none !important;}
 h4{color:#999;}
 .sol-x_logo{margin:6px 7px 0 0;}
 .sunframe{float: left;margin:-73px 0 0 0;}
@@ -402,39 +401,25 @@ h4{color:#999;}
 #modal-gallery{border:1px solid silver;}
 
 .social-links a.twitter { background: url(../img/social-icons/twitter.png) left bottom no-repeat; }
-.social-links a.dribbble { background: url(../img/social-icons/dribbble.png) left bottom no-repeat; }
 .social-links a.rss { background: url(../img/social-icons/rss.png) left bottom no-repeat; }
 .social-links a.pinterest { background: url(../img/social-icons/pinterest.png) left bottom no-repeat; }
 .social-links a.digg { background: url(../img/social-icons/digg.png) left bottom no-repeat; }
 .social-links a.flickr { background: url(../img/social-icons/flickr.png) left bottom no-repeat; }
-.social-links a.forrst { background: url(../img/social-icons/forrst.png) left bottom no-repeat; }
 .social-links a.vimeo { background: url(../img/social-icons/vimeo.png) left bottom no-repeat; }
 .social-links a.reddit { background: url(../img/social-icons/reddit.png) left bottom no-repeat; }
 .social-links a.linkedin { background: url(../img/social-icons/linkedin.png) left bottom no-repeat; }
 .social-links a.facebook { background: url(../img/social-icons/facebook.png) left bottom no-repeat; }
 .social-links a.paypal { background: url(../img/social-icons/paypal.png) left bottom no-repeat; }
-.social-links a.stumbleupon { background: url(../img/social-icons/stumbleupon.png) left bottom no-repeat; }
 .social-links a.email { background: url(../img/social-icons/email.png) left bottom no-repeat; }
-.social-links a.deviantart { background: url(../img/social-icons/deviantart.png) left bottom no-repeat; }
-.social-links a.netvibes { background: url(../img/social-icons/netvibes.png) left bottom no-repeat; }
-.social-links a.yahoo { background: url(../img/social-icons/yahoo.png) left bottom no-repeat; }
 .social-links a.github { background: url(../img/social-icons/github.png) left bottom no-repeat; }
 .social-links a.addthis { background: url(../img/social-icons/addthis.png) left bottom no-repeat; }
-.social-links a.behance { background: url(../img/social-icons/behance.png) left bottom no-repeat; }
 .social-links a.blogger { background: url(../img/social-icons/blogger.png) left bottom no-repeat; }
-.social-links a.slashdot { background: url(../img/social-icons/slashdot.png) left bottom no-repeat; }
-.social-links a.technorati { background: url(../img/social-icons/technorati.png) left bottom no-repeat; }
 .social-links a.googleplus { background: url(../img/social-icons/googleplus.png) left bottom no-repeat; }
 .social-links a.apple { background: url(../img/social-icons/apple.png) left bottom no-repeat; }
-.social-links a.myspace { background: url(../img/social-icons/myspace.png) left bottom no-repeat; }
 .social-links a.sharethis { background: url(../img/social-icons/sharethis.png) left bottom no-repeat; }
-.social-links a.yelp { background: url(../img/social-icons/yelp.png) left bottom no-repeat; }
-.social-links a.delicious { background: url(../img/social-icons/delicious.png) left bottom no-repeat; }
-.social-links a.lastfm { background: url(../img/social-icons/lastfm.png) left bottom no-repeat; }
 .social-links a.youtube { background: url(../img/social-icons/youtube.png) left bottom no-repeat; }
 .social-links a.skype { background: url(../img/social-icons/skype.png) left bottom no-repeat; }
 .social-links a.tumblr { background: url(../img/social-icons/tumblr.png) left bottom no-repeat; }
-.social-links a.aim { background: url(../img/social-icons/aim.png) left bottom no-repeat; }
 .social-links a.google { background: url(../img/social-icons/google.png) left bottom no-repeat; }
 
 .social-links a:hover { background-position: left top; }
@@ -464,6 +449,8 @@ h4{color:#999;}
         display: none;
     }
 
+    #gallery{margin: 28px 3px;}
+    
     .content {
         margin: -33px 0 0 0;
     }
@@ -510,5 +497,3 @@ h4{color:#999;}
     }
 
 }
-
-

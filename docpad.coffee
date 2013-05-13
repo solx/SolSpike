@@ -51,7 +51,7 @@ docpadConfig = {
 
 			# Styles
 			styles: [
-				"http://blueimp.github.com/cdn/css/bootstrap.min.css"
+				"/assets/bootstrap/css/bootstrap-min.css"
         		"/styles/bootstrap-image-gallery-min.css"
 				"/assets/css/style.css"
 				"http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700"
@@ -63,11 +63,10 @@ docpadConfig = {
 			scripts: [
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js",
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js",
-				"/scripts/script.js"
 				"/assets/js/jquery-countdown.js"
        			"/assets/js/jquery-tweet.js"
-        		"/assets/js/scripts.js"
         		"/assets/bootstrap/js/bootstrap-min.js"
+        		"/assets/js/scripts.js"
         		"http://blueimp.github.com/JavaScript-Load-Image/load-image.min.js"
         		"/scripts/bootstrap-image-gallery-min.js"
 			]
