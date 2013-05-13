@@ -1,5 +1,5 @@
 body {
-    background: #f8f8f8;
+    background: #111 url(/assets/img/rect-dot_bg.jpg);
     text-align: left;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -8,17 +8,20 @@ body {
 
 .container{width: 100%}
 .content{margin: 69px 0 0 0;}
+.page-container{padding:0 !important}
+footer i{opacity: 0.7;} 
 
 .navbar-inner{background:#555;border:none;}
 .navbar .nav>li>a, .navbar .brand{color:rgb(219, 219, 219);text-shadow:none;}
 .fixed-logo{width: 26%;margin: -11px 6px -10px 0 !important;}
 .navbar .brand{width: 250px;font-family: 'Patua One', cursive;}
 .close-header{z-index: 1099;position: fixed;top: 5px;right: 15px;}
-.fork-me{position: absolute; top: 40px; right: 0; border: 0;}
+.fork-me{position:absolute;top:40px;right:0; float:right; border: 0;}
 .close-header i{margin: 3px 0 0 0;}
 .twitter-follow-button{margin: 11px 81px 0 0;}
 .comments input, .comments textarea{width: 98%;}
 .social-buttons{position: fixed;top: 111px;left: 1px;}
+.ti-icon{margin:3px 0 0 0;}
 .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container{width:100%;margin: 0 41px;}
 
 ::-moz-selection { background: #C07701; color: #fff; text-shadow: none; }
@@ -241,11 +244,13 @@ fill:#444;}
 }
 
 .success-message { font-size: 20px; }
+.popover{color: #333;}
 
 
 /* ----- Timer ----- */
 
 .timer {
+    width: 562px !important;
     margin-top: 15px;
     padding: 0 40px;
     font-size: 20px;
@@ -302,7 +307,7 @@ fill:#444;}
 /* ----- Footer ----- */
 
 .footer {
-    margin: 0;
+    margin:0 0 77px 0;
     padding: 50px 0;
     min-height: 96px;
     background: #2d2d2d; /* browsers that don't support rgba */
@@ -391,8 +396,10 @@ h4{color:#999;}
 .sunframe{float: left;margin:-73px 0 0 0;}
 .home_title{margin: 27px 0 0 0 !important;}
 .hide{display: none}
-
+#gallery img{width:77px;}
 .social-links a { display: inline-block; width: 24px; height: 24px; margin: 0 8px 7px 0; vertical-align: middle; }
+#modal-gallery,.modal-footer,.modal-header{background: #111;}
+#modal-gallery{border:1px solid silver;}
 
 .social-links a.twitter { background: url(../img/social-icons/twitter.png) left bottom no-repeat; }
 .social-links a.dribbble { background: url(../img/social-icons/dribbble.png) left bottom no-repeat; }

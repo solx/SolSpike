@@ -3,7 +3,7 @@
 */
 $(function() {
     var now = new Date();
-    var countTo = 222 * 24 * 60 * 60 * 1000 + now.valueOf();
+    var countTo = 19 * 24 * 60 * 60 * 1000 + now.valueOf();
     $('.timer').countdown(countTo, function(event) {
         var $this = $(this);
         switch(event.type) {
@@ -33,20 +33,6 @@ jQuery(function($) {
         count: 1,
         loading_text: "loading tweet...",
         template: "{time} {text}"
-    });
-});
-
-
-/*
-    Flickr photos
-*/
-$(document).ready(function() {
-    $('.flickr-feed').jflickrfeed({
-        limit: 16,
-        qstrings: {
-            id: '52617155@N08'
-        },
-        itemTemplate: '<li><a href="{{link}}" target="_blank"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
     });
 });
 
@@ -146,30 +132,28 @@ jQuery(document).ready(function() {
         return false;
     });
 
-    $("#popover").popover();
-
     $(window).scroll(function() {
         if ($(this).scrollTop() > 133){
             $(".close-header, .fixed-logo").removeClass('hide').addClass('block');
           } else {
             $(".close-header, .fixed-logo").removeClass('block').addClass("hide");
-           // $(".navbar").css("position", "fixed");
-           // $('.show-hide').css("top", 40);
           }
 
         if($(this).scrollTop() === 0){
-            //$('.close-header').css('opacity', 1);
             $(".navbar").css('display', 'block');
         }
     });
 
             $(".close-header").click(function() {
-              //  $(".close-header").addClass('hide').css('opacity', 0);
-                $(".navbar").toggle(); // css("position", "relative");
-               /* $('.show-hide').toggle(function(){
-                    $('.show-hide').css("top", 0);
-                }, function(){
-                    $('.show-hide').css("top", 40);
-                }); */
+                $(".navbar").toggle();
     });
+
+    $("#percentage-popo, #site_info-popo,#chimp-popo, #mdm-popo, #tweet-popo, #github-popo, #timer-popo, #sunglass-popo, #titanium-popo, #n-popo, #cheap-popo, #moving-popo, #cube-popo, #lite-popo").popover();
+    $(".fork-me").hover(function(){
+        $("#github-popo").popover('show');
+    }, 
+    function(){
+        $("#github-popo").popover('hide');
+    });
+
 });

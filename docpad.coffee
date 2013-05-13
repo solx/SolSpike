@@ -40,20 +40,20 @@ docpadConfig = {
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+				solar express, solar system express, sol-x, cubesat, cubesat propultion, cubesat engine, cubesat rocket, cubesat rocket engine, 3D printed rocket engine, metal 3d printed rocket engine, 3d printed metal, open-source rocket engine, open source rocket
 				"""
 
 			# The website author's name
-			author: "Your Name"
+			author: "Mass Distribution Media"
 
 			# The website author's email
-			email: "your@email.com"
+			email: "mike@mdm.cm"
 
 			# Styles
 			styles: [
-				"/assets/bootstrap/css/bootstrap-min.css"
+				"http://blueimp.github.com/cdn/css/bootstrap.min.css"
+        		"/styles/bootstrap-image-gallery-min.css"
 				"/assets/css/style.css"
-				"/assets/css/supersized.css"
 				"http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700"
         		"http://fonts.googleapis.com/css?family=Patua+One"
         		"http://fonts.googleapis.com/css?family=Allerta"
@@ -65,12 +65,11 @@ docpadConfig = {
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js",
 				"/scripts/script.js"
 				"/assets/js/jquery-countdown.js"
-        		#"/assets/js/supersized.js"
-        		#"/assets/js/supersized-init.js"
        			"/assets/js/jquery-tweet.js"
-        		"/assets/js/jflickrfeed.js"
         		"/assets/js/scripts.js"
         		"/assets/bootstrap/js/bootstrap-min.js"
+        		"http://blueimp.github.com/JavaScript-Load-Image/load-image.min.js"
+        		"/scripts/bootstrap-image-gallery-min.js"
 			]
 
 

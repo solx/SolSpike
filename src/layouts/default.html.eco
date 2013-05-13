@@ -28,6 +28,7 @@
 	<!--[if lt IE 9]>
 		<script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+	<!--[if lt IE 7]><link rel="stylesheet" href="http://blueimp.github.com/cdn/css/bootstrap-ie6.min.css"><![endif]-->
 
 	<!-- Styles -->
 	<%- @getBlock('styles').add(@site.styles).toHTML() %>
@@ -38,7 +39,7 @@
 	<div class="navbar navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container">
-				<a class="brand" href="/">
+				<a title="<i class=icon-eye-open></i> <strong>Open Source</strong>" class="brand" href="/" id="github-popo" data-trigger="manual" data-content="This website is open-source on github. Contributions are of course welcomed and if that's your case, Thank you very much in advance! <i class=icon-heart></i>" data-placement="bottom">
 					<img class="pull-left sol-x_logo fixed-logo hide" src="/assets/img/logo_sol-x.png"alt="Sol-X logo"/>
 					RL Sol Spike Mark 1</a>
 				<ul class="nav">
@@ -55,12 +56,64 @@
 	</div>
 	<a href="https://github.com/MassDistributionMedia/rlspike.com"><img class="fork-me" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
 	<div class="container">
+
 		<section id="content" class="content">
 			<%- @content %>
 		</section>
+
+            <!-- Progress bar -->
+            <div class="progress row-fluid">
+                <div class="bar" style="width: 0%;" data-percentage="52">
+                    <div title="<strong>DIY Rocket %</strong>"id="percentage-popo" data-html="true" data-trigger="hover" data-content="This percentage represents our rough estiamte of our completed rocket for final delivery on June 1st 2013." data-placement="top">52%</div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer row-fluid">
+                <div class="tweets span4">
+                    <div class="show-tweets" id="tweet-popo" data-html="true" data-trigger="hover" title="Tweet tweet !" data-content="<strong>@SolX2010</strong>" data-placement="top"></div>
+                </div>
+                <div class="span4">
+                    <div id="gallery" data-toggle="modal-gallery" data-target="#modal-gallery">
+                        <a href="assets/img/apiproxy.png" title="Sol Spike Rocket in Sunglass facing front" data-gallery="gallery"><img class="img-circle" src="assets/img/apiproxy.png" alt="RL Sol Spike Rocket facing front"/></a>
+                        <a href="assets/img/gallery/3d-printed-rocket-engine.jpg" title="Ceramic 3D Printed Sol Spike" data-gallery="gallery"><img class="img-circle" src="assets/img/gallery/3d-printed-rocket-engine.jpg" alt="Ceramic 3D Printed Sol Spike"/></a>
+                        <a href="assets/img/gallery/rocket-engine_sol-x.png" title="3D rendering of Sol Spike rocket" data-gallery="gallery"><img class="img-circle" src="assets/img/gallery/rocket-engine_sol-x.png" alt="3D rendering of Sol Spike rocket"/></a>
+                    </div>
+                </div>
+                <div class="social span4">
+                    <div class="social-links">
+                        <a class="facebook" href="https://www.facebook.com/SolX2010"></a>
+                        <a class="twitter" href="http://twitter.com/SolX2010"></a>
+                        <a class="youtube" href="http://www.youtube.com/user/SolX2Mars"></a>
+                        <a class="email" href="blaze.sanders@solarsystemexpress.com"></a>
+                    </div>
+                    <div class="copyright">
+                        &copy;2013<a href=""> RLspike.com</a> All rights reserved. <br/>
+                        Website &copy; <a href="http://massdistributionmedia.com/" title="<strong>Mass Distribution Media</strong>" id="mdm-popo" data-html="true"data-trigger="hover" data-content="is a web design & development company based in Princeton, New Jersey, USA. Our slogan is 'New Age Web Platforms to Selected Clients.' and we're especially friendly with the aerospace industry seen here with our friends at Sol-X ! <br/> <i class=icon-heart></i>"  data-placement="top">MDM</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- modal-gallery is the modal dialog used for the image gallery -->
+<div id="modal-gallery" class="modal modal-gallery hide fade" tabindex="-1">
+    <div class="modal-header">
+        <a class="btn pull-right" data-dismiss="modal"><i class="icon-remove-circle"></i></a>
+        <h3 class="modal-title"></h3>
+    </div>
+    <div class="modal-body"><div class="modal-image"></div></div>
+    <div class="modal-footer">
+        <a class="btn btn-primary modal-next">Next <i class="icon-arrow-right icon-white"></i></a>
+        <a class="btn btn-info modal-prev"><i class="icon-arrow-left icon-white"></i> Previous</a>
+        <a class="btn btn-success modal-play modal-slideshow" data-slideshow="5000"><i class="icon-play icon-white"></i> Slideshow</a>
+        <a class="btn modal-download" target="_blank"><i class="icon-download"></i> Download</a>
+    </div>
+</div>
+<!-- end modal-gallery -->
+
 		<footer>
 			<p class="pull-right">
-				Last updated at <%= @site.date.toISOString() %>
+				<span title="<i class=icon-info-sign></i> <strong>Website Information</strong>" id="site_info-popo" data-html="true" data-trigger="hover" data-content="This website is designed, developed and hosted by Mass Distribution Media on a Nodejitsu server. Powered by DocPad." data-placement="top"><i class="icon-info-sign icon-white"></i> Last updated at <%= @site.date.toISOString() %></span>
 			</p>
 		</footer>
 	</div><!-- /container -->
