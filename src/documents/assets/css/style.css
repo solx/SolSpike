@@ -5,6 +5,7 @@ body {
     font-size: 14px;
     color:#999;
 }
+a{color:rgb(0, 170, 255);}
 
 .container{width: 100%}
 .content{margin: 69px 0 0 0;}
