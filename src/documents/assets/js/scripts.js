@@ -191,5 +191,11 @@ jQuery(document).ready(function() {
     function(){
         $("#github-popo").popover('hide');
     });
+    $('.sunframe').click(function(){
+        $(".carousel-control").css('display','none');
+    });
+    $('.sunframe').mouseleave(function(){
+        $(".carousel-control").css('display','block');
+    });
 
 });
