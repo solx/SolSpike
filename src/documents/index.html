@@ -27,10 +27,11 @@ title: home
             <!-- Timer -->
             <div class="row-fluid">
                 <div title="<i class=icon-time></i> <strong>Countdown to June 1st</strong>" class="timer span12" id="timer-popo" data-html="true"data-trigger="hover" data-content="June 1st is our deadline to submit all final deisgn and documents to the Open Space University to be Judged by the panel." data-placement="bottom">
-                    <span class="days"></span> days /
+                    <!--<span class="days"></span> days /
                     <span class="hours"></span> hours /
                     <span class="minutes"></span> minutes /
-                    <span class="seconds"></span> seconds <i class="icon-info-sign icon-white"> </i>
+                    <span class="seconds"></span> seconds -->
+                    <span id="countdown"></span> <i class="icon-info-sign icon-white"> </i>
                 </div>
             </div>
 
@@ -38,14 +39,29 @@ title: home
             <div class="row-fluid">
                 <div class="page-description span6">
                     <p>We are the <a href="http://www.solarsystemexpress.com/">Sol-X</a> team competing in the <a href="http://www.openspaceuniversity.org/#!rocketchallenge/c22xk">DIY (3D Printed) Rocket Contest</a> by Open Space University and sponsored by <a class="sunglass-link" href="https://sunglass.io/">Sunglass.io</a></p>
-                    <span class="subscription-form">
-                        <form title="<i class=icon-envelope></i> <strong>Sol-X Newsletter</strong>" class="form-inline" action="assets/sendmail.php" method="post" id="chimp-popo" data-html="true"data-trigger="hover" data-content="Sign up to get our Newsletter once or twice a month with updates on things like the RL Sol Spike 1 and other cool space projects we're working on." data-placement="top">
-                            <input type="text" name="email" placeholder="Enter your email...">
-                            <button type="submit" class="btn">Subscribe</button>
-                        </form>
-                        <div class="success-message"></div>
-                        <div class="error-message"></div>
-                    </span>
+
+                    <!-- Begin MailChimp Signup Form -->
+                    <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+                    <style type="text/css">
+                        #mc_embed_signup{background:transparent; clear:left; font:14px Helvetica,Arial,sans-serif;margin: 33px -23px 0 0;}
+                        #mc_embed_signup .button{clear:none;height: 48px;width:37% !important;background: darkorange}
+                        #mc_embed_signup .button:hover{background: gold}
+                        #mc_embed_signup .button:active{background: yellow}
+                        #mc_embed_signup input.email{width:62%;border: 1px solid #333;padding:0;margin:0;text-indent: 14px;}
+                        #mc_embed_signup form{padding:0;}
+                        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                    </style>
+                    <div id="mc_embed_signup"  title="<i class=icon-envelope></i> <strong>Sol-X Newsletter</strong>" data-html="true"data-trigger="hover" data-content="Sign up to get our Newsletter once or twice a month with updates on the RL Sol Spike 1 and other cool space projects we're working on." data-placement="top">
+                    <form action="http://solarsystemexpress.us5.list-manage.com/subscribe/post?u=b102a900f8c42f6719a2b9f49&amp;id=8d8aaec43c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        
+                        <input type="email" value="" name="EMAIL" class="pull-left email" id="mce-EMAIL" placeholder="email address" required>
+                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="pull-right button">
+                    </form>
+                    </div>
+
+                    <!--End mc_embed_signup-->
+
                 </div>
                 <div class="span6">
                     <img class="apiproxy" src="/assets/img/apiproxy.png" alt="screen shot of aerospike 3d model of rocket fro Sunglass I O"/>

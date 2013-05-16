@@ -49,6 +49,7 @@
 						</li>
 					<% end %>
 				</ul>
+				<a id="donate-popo" class="btn btn-primary" title="<strong>Be Awesome!</strong>"href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=V2ZRXNAU54MJ2" target="_blank" data-trigger="hover" data-html="true"data-content="Donate a little something to help fund this open-source Sol-X project. Thank you. <br/> <i class=icon-heart></i>" data-placement="bottom">Donate <i class="icon-heart icon-white"></i></a>
 				<a href="https://twitter.com/RLSpikeMark1" class="twitter-follow-button pull-right" data-show-count="true" data-lang="en">Follow @RLSpikeMark1</a>
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 			</div>
@@ -88,7 +89,7 @@
                     </div>
                     <div class="copyright">
                         &copy;2013<a href=""> RLspike.com</a> All rights reserved. <br/>
-                        Website &copy; <a href="http://massdistributionmedia.com/" title="<strong>Mass Distribution Media</strong>" id="mdm-popo" data-html="true"data-trigger="hover" data-content="is a web design & development company based in Princeton, New Jersey, USA. Our slogan is 'New Age Web Platforms to Selected Clients.' and we're especially friendly with the aerospace industry seen here with our friends at Sol-X ! <br/> <i class=icon-heart></i>"  data-placement="top">MDM</a>
+                        Website &copy; <a href="http://massdistributionmedia.com/" title="<strong>Mass Distribution Media</strong>" id="mdm-popo" data-html="true"data-trigger="hover" data-content="A web design & development company based in Princeton, New Jersey, USA. Our slogan is 'New Age Web Platforms to Selected Clients.' and we're especially friendly with the aerospace industry seen here with our friends at Sol-X ! <br/> <i class=icon-heart></i>"  data-placement="top">MDM</a>
                     </div>
                 </div>
             </div>
