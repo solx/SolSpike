@@ -1,9 +1,9 @@
 {
 	"name": "rlspike.docpad",
-	"version": "0.0.1-60",
+	"version": "0.0.1-61",
 	"private": true,
 	"description": "Sol-X RL Spike Mark 1 website.",
-	"homepage": "https://github.com/MassDistributionMedia/rlspike.com",
+	"homepage": "https://github.com/MassDistributionMedia/SolSpike.com",
 	"keywords": [
 		"docpad",
 		"hackerspace",
@@ -25,11 +25,11 @@
 		"Michael Mooring <mike@mdm.cm> (http://mdm.cm)"
 	],
 	"bugs": {
-		"url": "https://github.com/MassDistributionMedia/rlspike.com/issues"
+		"url": "https://github.com/MassDistributionMedia/SolSpike.com/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/MassDistributionMedia/rlspike.com.git"
+		"url": "https://github.com/MassDistributionMedia/SolSpike.com.git"
 	},
 	"engines": {
 		"node": ">= 0.8.x",
