@@ -1,6 +1,6 @@
 {
 	"name": "rlspike.docpad",
-	"version": "0.0.1-59",
+	"version": "0.0.1-60",
 	"private": true,
 	"description": "Sol-X RL Spike Mark 1 website.",
 	"homepage": "https://github.com/MassDistributionMedia/rlspike.com",
@@ -55,6 +55,9 @@
 	},
 	"main": "node_modules/docpad/bin/docpad-server",
 	"subdomain": "rlspike-mdm",
+	"domains": [
+		"solspike.com"
+	],
 	"scripts": {
 		"start": "node_modules/docpad/bin/docpad-server"
 	}

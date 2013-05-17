@@ -12,30 +12,26 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://website.com"
+			url: "http://solspike.com"
 
 			services:
 				facebookLikeButton:
 					applicationId: '455533301199949'
 				facebookFollowButton:
 					applicationId: '455533301199949'
-					username: 'mikeumus'
-				twitterTweetButton: 'subset_3'
-				twitterFollowButton: 'subset_3'
+				twitterTweetButton: 'RLSpikeMark1'
+				twitterFollowButton: 'RLSpikeMark1'
 				githubFollowButton: 'mikeumus'
 
 			# Here are some old site urls that you would like to redirect from
-			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
-			]
+			oldUrls: []
 
 			# The default title of our website
 			title: "RL Spike Mark 1"
 
 			# The website description (for SEO)
 			description: """
-				When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+				RL Sol Spike Mark 1 is a 3D Printed Nano-Satellite Rocket Engine for Sale, soon.
 				"""
 
 			# The website keywords (for SEO) separated by commas
