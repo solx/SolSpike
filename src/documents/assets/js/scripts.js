@@ -20,9 +20,9 @@ $('.progress .bar').animate({width: (percentage)+'%'}, 1000);
 
     $(window).scroll(function() {
         if ($(this).scrollTop() > 133){
-            $(".close-header, .fixed-logo").removeClass('hide').addClass('block');
+            $(".close-header").removeClass('hide').addClass('block');
           } else {
-            $(".close-header, .fixed-logo").removeClass('block').addClass("hide");
+            $(".close-header").removeClass('block').addClass("hide");
           }
 
         if($(this).scrollTop() === 0){
