@@ -40,7 +40,10 @@
 		<div class="navbar-inner">
 			<div class="container">
 				<a title="<i class=icon-eye-open></i> <strong>Open Source</strong>" class="brand" href="/" id="github-popo" data-trigger="manual" data-content="This website is open-source on github. Contributions are of course welcomed and if that's your case, Thank you very much in advance! <i class=icon-heart></i>" data-placement="bottom">
-					<img class="pull-left sol-x_logo fixed-logo hide" src="/assets/img/logo_sol-x.png"alt="Sol-X logo"/>
+					<img id="icon-solx" class="pull-left sol-x_logo fixed-logo hide" src="/assets/img/logo_sol-x.png"alt="Sol-X logo"/>
+					<% if @document.layout is "page" or @document.layout is "post": %>
+						<script>document.getElementById("icon-solx").classList.remove("hide");</script>
+					<% end %>
 					RL Sol Spike Mark 1</a>
 				<ul class="nav">
 					<% for document in @getCollection('pages').toJSON(): %>

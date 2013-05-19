@@ -7,20 +7,47 @@ pageOrder: 3
 <br/>
 <blockquote>
 	<h5>I notice that you are planning on making it out of titanium. Doesn't that exclude it from the 3-D printed rocket challenge, which must be made out of shape-ways steel?
-You predict 2 N of force. What is it's T/W?</h5>
-</blockquote>
+You predict 2 N of force. What is it's T/W?</h5> ~ <a href="https://www.facebook.com/lars.osborne" target="_blank">Lars Osborne</a><i class="icon-share icon-white"></i></blockquote>
 Blaze Sanders: <q>Our ceramic print (pictured above) was used for 70 psi compressed air flow test. 
 The steel protytpe for contest, will run at 100 psi, and allow for burn times of 3 to 5 seconds
 The production model will be printed in Ti, run at 200 psi and burn for ??? seconds.
 
 Thrust-to-weight (T/W) ratio is <var>(2 N / 0.392266 N) = 5 </var>
-<a target="_blank" href="http://en.wikipedia.org/wiki/Thrust-to-weight_ratio">http://en.wikipedia.org/wiki/Thrust-to-weight_ratio<i class="icon-share icon-white"></i></a>
+<a target="_blank" href="http://en.wikipedia.org/wiki/Thrust-to-weight_ratio">http://en.wikipedia.org/wiki/Thrust-to-weight_ratio <i class="icon-share icon-white"></i></a> 
 
 We will have a more detailed techanical document out Monday.
 
 Robert Montana Ali Sanders (My brother from the same mother)
 Sol-X could use some of your electrical tech experience and drawing skills.</q>
 
-<br/><br/><br/>
+<br/><br/><br/><br/>
 
+<blockquote><h5>So when is the first test run of this beauty? :D </h5> ~ <a href="https://www.facebook.com/balazs.imriknight"target="_blank">Balazs Imri-Knight <i class="icon-share icon-white"></i></a> - <sub class="muted">via <a href="http://www.spacegambit.org/" taget="_blank"</a>SpaceGambit</a> Facebook Thread: <a href="https://www.facebook.com/groups/SpaceGAMBIT/permalink/559914237387406/" target="_blank">https://www.facebook.com/groups/SpaceGAMBIT/permalink/559914237387406/ </a></sub></blockquote>
+Blaze Sanders: <q> It has been run at 70 psi with compressed air. Next steps are 140 psi with NO2 in Sept 2013, 280 psi with NO2 in Dec 2013, then 550 psi with NO2 and paraffin wax May 2014. This is only a TRL level 4 R&D side project right now, Sol-Xneed to find funding and hire more people, since our focus is the Gravity Development Board http://www.solarsystemexpress.com/gravity-development-board.html</q>
+
+<br/><br/><br/><br/>
+
+<blockquote><h5>I assume you applied for spaceGAMBIT grant, will it cover what you need or you are using other sources of funding? Do you have any private funders?</h5> ~ <a href="https://www.facebook.com/balazs.imriknight"target="_blank">Balazs Imri-Knight <i class="icon-share icon-white"></i></a> - <sub class="muted">via <a href="http://www.spacegambit.org/" taget="_blank"</a>SpaceGambit</a> Facebook Thread: <a href="https://www.facebook.com/groups/SpaceGAMBIT/permalink/559914237387406/" target="_blank">https://www.facebook.com/groups/SpaceGAMBIT/permalink/559914237387406/ </a></sub> </blockquote>
+Blaze Sanders: <q>Yes Sol-X applied to Space GAMBIT last grant but was denied. Loking into their next round of funding. Sol-X has been boot strapped by me at around $30,000. Sol-X does consulting to pay some of its research bills, but we need more money  RocketHub and Create the Future grants for $75,000 are the next targets. We need $350,000 to fully launch the GDB ($100,000) and Sol Spike ($250,000)</q>
+
+<br/><br/><br/><br/>
+
+<blockquote><h5>Blaze, do you have a business plan around this?</h5> ~ <a href="https://www.facebook.com/tinytitan" target="_blank">Brian Lim <i class="icon-share icon-white"></i></a> - <sub class="muted">via <a href="http://www.spacegambit.org/" taget="_blank"</a>SpaceGambit</a> Facebook Thread: <a href="https://www.facebook.com/groups/SpaceGAMBIT/permalink/559914237387406/" target="_blank">https://www.facebook.com/groups/SpaceGAMBIT/permalink/559914237387406/ </a></sub></blockquote>
+Blaze Sanders: <q>Yes a second draft 8 page business plan. We have a full 32 page BP around our Gravity Development Board.</q>
+
+<br/><br/><br/><br/>
+
+<blockquote><h5> If you max out the weight limits for each cube in a 3U cubesat, and assume that one of the cubes is just fuel/oxidizer frame, how much delta V can you get? I ask because I'm wondering what other orbits might be reachable if you dump such a configuration out during an ISS resupply mission from a PPOD.</h5> ~ <a href="https://www.facebook.com/michael.turner.9231" target="_blank">Michael Turner <i class="icon-share icon-white"></i></a> - <sub class="muted">via <a href="http://www.spacegambit.org/" taget="_blank"</a>SpaceGambit</a> Facebook Thread: <a href="https://www.facebook.com/groups/SpaceGAMBIT/permalink/559914237387406/" target="_blank">https://www.facebook.com/groups/SpaceGAMBIT/permalink/559914237387406/ </a></sub></blockquote>
+Blaze Sanders: <q>Given the ISP and a known starting wet mass and ending dry weight, just use the rocket equation to calulate deltaV 
+http://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation</q>
+
+<br/><br/><br/><br/>
+
+<blockquote><h5>How scalable is this engine? </h5> ~ <a href="https://www.facebook.com/balazs.imriknight"target="_blank">Balazs Imri-Knight <i class="icon-share icon-white"></i></a> - <sub class="muted">via <a href="http://www.spacegambit.org/" taget="_blank"</a>SpaceGambit</a> Facebook Thread: <a href="https://www.facebook.com/groups/SpaceGAMBIT/permalink/559914237387406/" target="_blank">https://www.facebook.com/groups/SpaceGAMBIT/permalink/559914237387406/ </a></sub></blockquote>
+Blaze Sanders: <q>I'll be sharing me EXCEL deltaV calculator on the June 1 DIY Rocket submission deadline  We want to print engine as one solid piece to reduce manufacturing cost and increase strength, so near term we are limited by 3D printer work envelope (12 x 12 x 8 inches) <a href="http://youtu.be/8nro85FQY3A" target="_blank">http://youtu.be/8nro85FQY3A <i class="icon-share icon-white"></i></a></q>
+
+
+<br/><br/><br/><hr/>
+
+<h5>Leave <strong>Your</strong> Question below and when answered, we'll promote it above to a FAQ. Thank You in advance to your question(s): </h5>
 <%- @getCommentsBlock() %>
