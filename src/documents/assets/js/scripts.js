@@ -11,7 +11,7 @@ jQuery(function($) {
     });
 });
 
-
+$(function(){
 /*
     Progress bar
 */
