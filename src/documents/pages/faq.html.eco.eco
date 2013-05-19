@@ -1,0 +1,26 @@
+---
+title: FAQ
+layout: page
+pageOrder: 3
+---
+
+<br/>
+<blockquote>
+	<h5>I notice that you are planning on making it out of titanium. Doesn't that exclude it from the 3-D printed rocket challenge, which must be made out of shape-ways steel?
+You predict 2 N of force. What is it's T/W?</h5>
+</blockquote>
+Blaze Sanders: <q>Our ceramic print (pictured above) was used for 70 psi compressed air flow test. 
+The steel protytpe for contest, will run at 100 psi, and allow for burn times of 3 to 5 seconds
+The production model will be printed in Ti, run at 200 psi and burn for ??? seconds.
+
+Thrust-to-weight (T/W) ratio is <var>(2 N / 0.392266 N) = 5 </var>
+<a target="_blank" href="http://en.wikipedia.org/wiki/Thrust-to-weight_ratio">http://en.wikipedia.org/wiki/Thrust-to-weight_ratio<i class="icon-share icon-white"></i></a>
+
+We will have a more detailed techanical document out Monday.
+
+Robert Montana Ali Sanders (My brother from the same mother)
+Sol-X could use some of your electrical tech experience and drawing skills.</q>
+
+<br/><br/><br/>
+
+<%- @getCommentsBlock() %>

@@ -5,11 +5,6 @@ layout: default
 <article id="post" class="post">
 	<h1><%= @document.title %></h1>
 	<div class="post-content"><%- @content %></div>
-	<span class="social-buttons">
-		<%- @getGooglePlusOneButton() %>
-		<%- @getFacebookLikeButton() %>
-		<%- @getTwitterTweetButton() %>
-	</span>
 	<%- @getCommentsBlock() %>
 </article>
 

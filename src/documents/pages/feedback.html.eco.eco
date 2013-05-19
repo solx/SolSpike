@@ -1,0 +1,8 @@
+---
+title: Your Input
+layout: page
+pageOrder: 2
+social: true
+---
+
+<%- @getCommentsBlock() %>

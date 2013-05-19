@@ -12,6 +12,8 @@ a{color:rgb(0, 170, 255);}
 .page-container{padding-bottom:0 !important}
 footer i{opacity: 0.7;} 
 .navbar .nav>li>a:focus, .navbar .nav>li>a:hover{color:#fff;}
+q{color:#ccc;}
+article{padding: 0 39px;}
 
 .navbar-inner{background:#555;border:none;}
 .navbar .nav>li>a, .navbar .brand{color:rgb(219, 219, 219);text-shadow:none;}
@@ -21,8 +23,10 @@ footer i{opacity: 0.7;}
 .fork-me{position:absolute;top:40px;right:0;border: 0;}
 .close-header i{margin: 3px 0 0 0;}
 .twitter-follow-button{margin: 11px 81px 0 0;}
-.comments input, .comments textarea{width: 98%;}
-.social-buttons{position: fixed;top: 111px;left: 1px;width: 81px}
+.comments input, .comments textarea{width: 98%;background: #333;color: #ccc;}
+.social-buttons{margin: 10px 110px 0 0;}
+.facebook-like-button{width:82px;}
+.twitter-tweet-button{width:89px;}
 .ti-icon{margin:3px 0 0 0;}
 .slide{height: 405px;width:494px;display: block;margin: -82px 0 0 0;}
 .carousel-control{left:0;}

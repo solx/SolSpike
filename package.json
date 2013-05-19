@@ -1,6 +1,6 @@
 {
 	"name": "solspike.docpad",
-	"version": "0.0.1-65",
+	"version": "0.0.1-68",
 	"private": true,
 	"description": "Sol-X RL Spike Mark 1 website.",
 	"homepage": "https://github.com/MassDistributionMedia/SolSpike.com",
@@ -32,7 +32,7 @@
 		"url": "https://github.com/MassDistributionMedia/SolSpike.com.git"
 	},
 	"engines": {
-		"node": ">= 0.8.x",
+		"node": ">=0.10.x",
 		"docpad": "6.x"
 	},
 	"dependencies": {
