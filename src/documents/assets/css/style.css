@@ -37,6 +37,7 @@ article{padding: 0 39px;}
 .sunglass-popo{color: #E8C407;}
 .sunglass-link{color: yellow}
 .sunglass-link:hover{color:#fff}
+.q-hash{width:100;height: 23px;display:block;clear: both;}
 .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container{width:100%;margin: 0 41px;}
 
 ::-moz-selection { background: #C07701; color: #fff; text-shadow: none; }

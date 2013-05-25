@@ -69,7 +69,7 @@ title: home
                       <!-- Carousel items -->
                       <div class="carousel-inner">
                         <div class="active item">
-                            <iframe title="<strong class=sunglass-popo>Sunglass.io</strong>" class="sunframe" width="494" height="315" src="https://sunglass.io/player/830b0d06-680d-4d9a-aa7e-2ea76a9605ec" frameborder="0" allowfullscreen mozallowfullscreen webkitallowfullscreen id="sunglass-popo" data-html="true" data-trigger="hover" data-content="Click to play with our rocket design in 3D thanks to Sunglass.io !" data-placement="top"></iframe>
+                            <iframe title="<strong class=sunglass-popo>Sunglass.io</strong>" class="sunframe" width="494" height="315" src="https://sunglass.io/player/f5a58f4d-a04d-4449-8149-b4f3276eba32" frameborder="0" allowfullscreen mozallowfullscreen webkitallowfullscreen id="sunglass-popo" data-html="true" data-trigger="hover" data-content="Click to play with our rocket design in 3D thanks to Sunglass.io !" data-placement="top"></iframe>
                             <sub class="pull-left">* Click the rocket once after loading to fit zoom.</sub><span class="pull-right">Open in full <a class="sunglass-link" target="_blank" href="https://sunglass.io/login?whence=/project/9692?spaceId=98eb7f67-ce23-4931-9677-1a31bbc00cd1">Sunglass.io <i class="icon-share icon-white"></i></a></span>
                         </div>
                         <div class="item">
@@ -98,7 +98,7 @@ title: home
                             <sub class="muted">47.867</sub>
                         </span>
                     </span>
-                    <span title="<i class='icon-shopping-cart ti-icon'></i> <strong>Save when testing.</strong>" class="span2 cheap" id="cheap-popo" data-html="true" data-trigger="hover" data-content="$49 per ceramic copy makes pressure testing cheaper and faster. <sub>[Engine not currently for sale. Please sign up for the Newletter above to know when it will be.]</sub>" data-placement="bottom"><h2>Cheap</h2>
+                    <span title="<i class='icon-shopping-cart ti-icon'></i> <strong>Save when testing.</strong>" class="span2 cheap" id="cheap-popo" data-html="true" data-trigger="hover" data-content="$161 per ceramic copy makes pressure testing cheaper and faster. <sub>[Engine not currently for sale. Please sign up for the Newletter above to know when it will be.]</sub>" data-placement="bottom"><h2>Cheap</h2>
                         <span class="coins" ><svg
 version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"> <path
@@ -138,7 +138,7 @@ v-18.887c5.847,5.773,13.357,10.908,22.405,15.303c20.356,9.887,47.104,15.332,75.3
 C392.491,167.636,419.238,162.19,439.595,152.304z M439.595,202.247c9.046-4.393,16.559-9.531,22.405-15.305v18.887
 c0,26.211-43.752,47.461-97.723,47.461c-53.97,0-97.722-21.25-97.722-47.461v-18.887c5.847,5.773,13.357,10.912,22.405,15.305
 c20.356,9.887,47.104,15.33,75.316,15.33C392.491,217.577,419.238,212.134,439.595,202.247z"/> </svg></span>
-                        <h3>$49</h3>
+                        <h3>$161</h3>
                         <sup>Ceramic Copy</sup></span>
                     <span title="<i class='icon-ban-circle ti-icon'></i> <strong>No Moving Parts</strong>" class="span2" id="moving-popo" data-html="true" data-trigger="hover" data-content="Score better in Mission Risk Managment with the Sol Spike's single unit design." data-placement="bottom"><h2>Secure</h2>
                         <span class="gears"><svg
@@ -194,11 +194,20 @@ l205.454-75.434L291.838,219.671l-0.016-0.066L186.756,193.332z"/> </svg></span>
             </div>
 
 <script type="text/javascript">
-    $(window).scroll(function() {
-        if ($(this).scrollTop() > 133){
-            $(".fixed-logo").removeClass('hide').addClass('block');
-        } else {
-            $(".fixed-logo").removeClass('block').addClass("hide");
-        }
-    });
+
+function showSolIcon(){
+    document.getElementById("icon-solx").classList.remove('hide');
+    document.getElementById("icon-solx").classList.add('block');
+}
+function hideSolIcon(){
+    document.getElementById("icon-solx").classList.remove('block');
+    document.getElementById("icon-solx").classList.add('hide');
+}
+
+onscroll = function() {
+    var nVScroll = document.documentElement.scrollTop || document.body.scrollTop;
+    window = nVScroll > 133 ?
+        (showSolIcon(), true)
+        : (hideSolIcon(), false);
+}
 </script>

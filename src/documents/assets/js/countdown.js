@@ -1,7 +1,7 @@
 /*
     CountDownTimer Function starts
 */
-$(function() {
+window.onload = function() {
 
     CountDownTimer('06/01/2013 10:1 AM', 'countdown');
 
@@ -39,5 +39,5 @@ $(function() {
         timer = setInterval(showRemaining, 1000);
     }
 
-});
+};
 // CountDownTimer Function ends
