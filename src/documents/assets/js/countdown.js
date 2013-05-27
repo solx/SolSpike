@@ -3,7 +3,7 @@
 */
 window.onload = function() {
 
-    CountDownTimer('06/01/2013 10:1 AM', 'countdown');
+    CountDownTimer('06/30/2013 10:1 AM', 'countdown');
 
     function CountDownTimer(dt, id)
     {
