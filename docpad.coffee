@@ -15,6 +15,7 @@ docpadConfig = {
 			url: "http://solspike.com"
 
 			services:
+				facebookAppId: '455533301199949'
 				facebookLikeButton:
 					applicationId: '455533301199949'
 				facebookFollowButton:
@@ -24,7 +25,7 @@ docpadConfig = {
 				githubFollowButton: 'mikeumus'
 
 			# Here are some old site urls that you would like to redirect from
-			oldUrls: []
+			oldUrls: [""]
 
 			# The default title of our website
 			title: "RL Spike Mark 1"

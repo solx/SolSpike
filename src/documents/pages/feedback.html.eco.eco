@@ -11,4 +11,4 @@ pageOrder: 2
 
 <br/><br/><br/>
 
-<%- @getCommentsBlock() %>
+<%- @getFacebookComments(1010,'dark') %>

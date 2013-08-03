@@ -1,6 +1,0 @@
----
-name: Scrape Doc
-layout: default
----
-
-<%- @getGoogleDocsBlock() %>
