@@ -52,7 +52,9 @@
 						</li>
 					<% end %>
 				</ul>
+				<!-- Donate button start
 				<a id="donate-popo" class="btn btn-primary" title="<strong>Be Awesome!</strong>"href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=V2ZRXNAU54MJ2" target="_blank" data-trigger="hover" data-html="true"data-content="Donate a little something to help fund this open-source Sol-X project. Thank you. <br/> <i class=icon-heart></i>" data-placement="bottom">Donate <i class="icon-heart icon-white"></i></a>
+				<!-- donate button end -->
 				<% if @document.social is true: %>
 					<span class="social-buttons pull-right">
 						<span class="pull-right"><%- @getGooglePlusOneButton() %></span>
@@ -72,18 +74,21 @@
 		<section id="content" class="content">
 			<%- @content %>
 
-            <!-- Progress bar -->
+            <!-- Progress bar start
             <div class="progress row-fluid">
                 <div class="bar" style="width: 0%;" data-percentage="52">
                     <div title="<strong>DIY Rocket %</strong>"id="percentage-popo" data-html="true" data-trigger="hover" data-content="This percentage represents our rough estiamte of our completed rocket for final delivery on June 1st 2013." data-placement="top">52%</div>
                 </div>
             </div>
+            <!-- progress bar end -->
 
             <!-- Footer -->
             <div class="footer row-fluid">
+            	<!-- twitter footer start
                 <div class="tweets span4">
                     <div class="show-tweets" id="tweet-popo" data-html="true" data-trigger="hover" title="Tweet tweet !" data-content="<strong>@SolX2010</strong>" data-placement="top"></div>
                 </div>
+                <!-- twitter footer end -->
                 <div class="span4">
                     <div id="gallery" data-toggle="modal-gallery" data-target="#modal-gallery">
                         <a href="assets/img/apiproxy.png" title="Sol Spike Rocket in Sunglass facing front" data-gallery="gallery"><img class="img-circle" src="assets/img/apiproxy.png" alt="RL Sol Spike Rocket facing front"/></a>
@@ -99,7 +104,7 @@
                         <a class="email" href="blaze.sanders@solarsystemexpress.com"></a>
                     </div>
                     <div class="copyright">
-                        &copy;2013<a href=""> SolSpike.com</a> All rights reserved. <br/>
+                        &copy;<%- (new Date()).getFullYear() %> <a href="">SolSpike.com</a> All rights reserved. <br/>
                         Website &copy; <a href="http://massdistributionmedia.com/" target="_blank" title="<strong>Mass Distribution Media</strong>" id="mdm-popo" data-html="true"data-trigger="hover" data-content="A web design & development company based in Princeton, New Jersey, USA. Our slogan is 'New Age Web Platforms to Selected Clients.' and we're especially friendly with the aerospace industry seen here with our friends at Sol-X ! <br/> <i class=icon-heart></i>"  data-placement="top">MDM</a>
                     </div>
                 </div>
