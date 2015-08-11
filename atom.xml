@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>RL Spike Mark 1</title>
+	<link href="solx.github.io/SolSpike/atom.xml" rel="self"/>
+	<link href="solx.github.io/SolSpike"/>
+	<updated>2015-08-11T23:59:44.031Z</updated>
+	<id>solx.github.io/SolSpike</id>
+	<author>
+		<name>Mass Distribution Media</name>
+		<email>mike@mdm.cm</email>
+	</author>
+
+	
+		<entry>
+			<title>Sol-X Interview by Subset 3</title>
+			<link href="solx.github.io/SolSpike//posts/sol-x_interview"/>
+			<updated>2015-08-11T23:59:44.746Z</updated>
+			<id>solx.github.io/SolSpike//posts/sol-x_interview</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;Sol-X Interview by Subset 3 | RL Spike Mark 1&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;RL Sol Spike Mark 1 is a 3D Printed Nano-Satellite Rocket Engine for Sale, soon.&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;solar express, solar system express, sol-x, cubesat, cubesat propultion, cubesat engine, cubesat rocket, cubesat rocket engine, 3D printed rocket engine, metal 3d printed rocket engine, 3d printed metal, open-source rocket engine, open source rocket&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Mass Distribution Media&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.60.4&quot; /&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;assets/img/logo_sol-x.png&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+	&lt;!--[if lt IE 7]&gt;&lt;link rel=&quot;stylesheet&quot; href=&quot;http://blueimp.github.com/cdn/css/bootstrap-ie6.min.css&quot;&gt;&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;assets/bootstrap/css/bootstrap-min.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;styles/bootstrap-image-gallery-min.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;assets/css/style.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;https://fonts.googleapis.com/css?family=Patua+One&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;https://fonts.googleapis.com/css?family=Allerta&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;!-- Markup --&gt;
+	&lt;span class=&quot;btn close-header hide&quot;&gt;&lt;i class=&quot; icon-remove-circle&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+	&lt;div class=&quot;navbar navbar-fixed-top&quot;&gt;
+		&lt;div class=&quot;navbar-inner&quot;&gt;
+			&lt;div class=&quot;container&quot;&gt;
+				&lt;a title=&quot;&lt;i class=icon-eye-open&gt;&lt;/i&gt; &lt;strong&gt;Open Source&lt;/strong&gt;&quot; class=&quot;brand&quot; href=&quot;/&quot; id=&quot;github-popo&quot; data-trigger=&quot;manual&quot; data-content=&quot;This website is open-source on github. Contributions are of course welcomed and if that's your case, Thank you very much in advance! &lt;i class=icon-heart&gt;&lt;/i&gt;&quot; data-placement=&quot;bottom&quot;&gt;
+					&lt;img id=&quot;icon-solx&quot; class=&quot;pull-left sol-x_logo fixed-logo hide&quot; src=&quot;assets/img/logo_sol-x.png&quot;alt=&quot;Sol-X logo&quot;/&gt;
+					
+						&lt;script&gt;document.getElementById(&quot;icon-solx&quot;).classList.remove(&quot;hide&quot;);&lt;/script&gt;
+					
+					RL Sol Spike Mark 1&lt;/a&gt;
+				&lt;ul class=&quot;nav&quot;&gt;
+					
+						&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/updates&quot; class=&quot;&quot;&gt;
+							&lt;a href=&quot;/pages/updates&quot; property=&quot;dc:title&quot;&gt;Updates *&lt;/a&gt;
+						&lt;/li&gt;
+					
+						&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/feedback&quot; class=&quot;&quot;&gt;
+							&lt;a href=&quot;/pages/feedback&quot; property=&quot;dc:title&quot;&gt;Your Input&lt;/a&gt;
+						&lt;/li&gt;
+					
+						&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/faq&quot; class=&quot;&quot;&gt;
+							&lt;a href=&quot;/pages/faq&quot; property=&quot;dc:title&quot;&gt;FAQ&lt;/a&gt;
+						&lt;/li&gt;
+					
+						&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/blog&quot; class=&quot;&quot;&gt;
+							&lt;a href=&quot;/pages/blog&quot; property=&quot;dc:title&quot;&gt;Blog&lt;/a&gt;
+						&lt;/li&gt;
+					
+				&lt;/ul&gt;
+				&lt;!-- Donate button start
+				&lt;a id=&quot;donate-popo&quot; class=&quot;btn btn-primary&quot; title=&quot;&lt;strong&gt;Be Awesome!&lt;/strong&gt;&quot;href=&quot;https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=V2ZRXNAU54MJ2&quot; target=&quot;_blank&quot; data-trigger=&quot;hover&quot; data-html=&quot;true&quot;data-content=&quot;Donate a little something to help fund this open-source Sol-X project. Thank you. &lt;br/&gt; &lt;i class=icon-heart&gt;&lt;/i&gt;&quot; data-placement=&quot;bottom&quot;&gt;Donate &lt;i class=&quot;icon-heart icon-white&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+				&lt;!-- donate button end --&gt;
+				
+					&lt;span class=&quot;social-buttons pull-right&quot;&gt;
+						&lt;span class=&quot;pull-right&quot;&gt;&lt;div class=&quot;google-plus-one-button service-button&quot;&gt;
+	&lt;div class=&quot;g-plusone&quot; data-size=&quot;medium&quot; data-href=&quot;solx.github.io/SolSpike/posts/sol-x_interview&quot;&gt;&lt;/div&gt;
+	&lt;script&gt;
+		(function() {
+			var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+			po.src = 'https://apis.google.com/js/plusone.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		})();
+	&lt;/script&gt;
+&lt;/div&gt;&lt;/span&gt;
+						&lt;span class=&quot;pull-right&quot;&gt;&lt;div class=&quot;facebook-like-button service-button&quot;&gt;
+	&lt;iframe src=&quot;//www.facebook.com/plugins/like.php?href=solx.github.io/SolSpike/posts/sol-x_interview&amp;amp;send=false&amp;amp;layout=button_count&amp;amp;width=450&amp;amp;show_faces=false&amp;amp;font&amp;amp;colorscheme=light&amp;amp;action=like&amp;amp;height=21&amp;amp;appId=455533301199949&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:450px; height:21px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;/span&gt;
+						&lt;span class=&quot;pull-right&quot;&gt;&lt;div class=&quot;twitter-tweet-button service-button&quot;&gt;
+	&lt;a href=&quot;https://twitter.com/share&quot; class=&quot;twitter-share-button&quot; data-via=&quot;RLSpikeMark1&quot; data-related=&quot;RLSpikeMark1&quot;&gt;Tweet&lt;/a&gt;
+	&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=&quot;//platform.twitter.com/widgets.js&quot;;fjs.parentNode.insertBefore(js,fjs);}}(document,&quot;script&quot;,&quot;twitter-wjs&quot;);&lt;/script&gt;
+&lt;/div&gt;&lt;/span&gt;
+					&lt;/span&gt;
+				
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;a href=&quot;https://github.com/MassDistributionMedia/SolSpike.com&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;fork-me&quot; src=&quot;https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png&quot; alt=&quot;Fork me on GitHub&quot;&gt;&lt;/a&gt;
+	&lt;div class=&quot;container&quot;&gt;
+		&lt;base href=&quot;http://solx.github.io/SolSpike/&quot;&gt;
+		&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+			&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	&lt;h1&gt;Sol-X Interview by Subset 3&lt;/h1&gt;
+	&lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;By Michael Mooring&lt;/p&gt;
+&lt;iframe class=&quot;block auto-center&quot; width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/vXi0DmcZWNc&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+	&lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;
+&lt;script&gt;(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = &quot;//connect.facebook.net/en_US/all.js#xfbml=1&amp;appId=455533301199949&quot;;
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));&lt;/script&gt;
+&lt;div class=&quot;fb-comments&quot; data-href=&quot;solx.github.io/SolSpike/posts/sol-x_interview&quot; data-width=&quot;1010&quot; data-num-posts=&quot;10&quot; data-colorscheme=&quot;dark&quot; data-order-by=&quot;social&quot;&gt;&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+	
+&lt;/footer&gt;
+
+            &lt;!-- Progress bar start
+            &lt;div class=&quot;progress row-fluid&quot;&gt;
+                &lt;div class=&quot;bar&quot; style=&quot;width: 0%;&quot; data-percentage=&quot;52&quot;&gt;
+                    &lt;div title=&quot;&lt;strong&gt;DIY Rocket %&lt;/strong&gt;&quot;id=&quot;percentage-popo&quot; data-html=&quot;true&quot; data-trigger=&quot;hover&quot; data-content=&quot;This percentage represents our rough estiamte of our completed rocket for final delivery on June 1st 2013.&quot; data-placement=&quot;top&quot;&gt;52%&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;!-- progress bar end --&gt;
+
+            &lt;!-- Footer --&gt;
+            &lt;div class=&quot;footer row-fluid&quot;&gt;
+            	&lt;!-- twitter footer start
+                &lt;div class=&quot;tweets span4&quot;&gt;
+                    &lt;div class=&quot;show-tweets&quot; id=&quot;tweet-popo&quot; data-html=&quot;true&quot; data-trigger=&quot;hover&quot; title=&quot;Tweet tweet !&quot; data-content=&quot;&lt;strong&gt;@SolX2010&lt;/strong&gt;&quot; data-placement=&quot;top&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+                &lt;!-- twitter footer end --&gt;
+                &lt;div class=&quot;span4&quot;&gt;
+                    &lt;div id=&quot;gallery&quot; data-toggle=&quot;modal-gallery&quot; data-target=&quot;#modal-gallery&quot;&gt;
+                        &lt;a href=&quot;assets/img/apiproxy.png&quot; title=&quot;Sol Spike Rocket in Sunglass facing front&quot; data-gallery=&quot;gallery&quot;&gt;&lt;img class=&quot;img-circle&quot; src=&quot;assets/img/apiproxy.png&quot; alt=&quot;RL Sol Spike Rocket facing front&quot;/&gt;&lt;/a&gt;
+                        &lt;a href=&quot;assets/img/gallery/3d-printed-rocket-engine.jpg&quot; title=&quot;Ceramic 3D Printed Sol Spike&quot; data-gallery=&quot;gallery&quot;&gt;&lt;img class=&quot;img-circle&quot; src=&quot;assets/img/gallery/3d-printed-rocket-engine.jpg&quot; alt=&quot;Ceramic 3D Printed Sol Spike&quot;/&gt;&lt;/a&gt;
+                        &lt;a href=&quot;assets/img/gallery/rocket-engine_sol-x.png&quot; title=&quot;3D rendering of Sol Spike rocket&quot; data-gallery=&quot;gallery&quot;&gt;&lt;img class=&quot;img-circle&quot; src=&quot;assets/img/gallery/rocket-engine_sol-x.png&quot; alt=&quot;3D rendering of Sol Spike rocket&quot;/&gt;&lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;social span4&quot;&gt;
+                    &lt;div class=&quot;social-links&quot;&gt;
+                        &lt;a class=&quot;facebook&quot; href=&quot;https://www.facebook.com/SolX2010&quot;&gt;&lt;/a&gt;
+                        &lt;a class=&quot;twitter&quot; href=&quot;http://twitter.com/SolX2010&quot;&gt;&lt;/a&gt;
+                        &lt;a class=&quot;youtube&quot; href=&quot;http://www.youtube.com/user/SolX2Mars&quot;&gt;&lt;/a&gt;
+                        &lt;a class=&quot;email&quot; href=&quot;blaze.sanders@solarsystemexpress.com&quot;&gt;&lt;/a&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;copyright&quot;&gt;
+                        &amp;copy;2015 &lt;a href=&quot;&quot;&gt;SolSpike.com&lt;/a&gt; All rights reserved. &lt;br/&gt;
+                        Website &amp;copy; &lt;a href=&quot;http://massdistributionmedia.com/&quot; target=&quot;_blank&quot; title=&quot;&lt;strong&gt;Mass Distribution Media&lt;/strong&gt;&quot; id=&quot;mdm-popo&quot; data-html=&quot;true&quot;data-trigger=&quot;hover&quot; data-content=&quot;A web design &amp; development company based in Princeton, New Jersey, USA. Our slogan is 'New Age Web Platforms to Selected Clients.' and we're especially friendly with the aerospace industry seen here with our friends at Sol-X ! &lt;br/&gt; &lt;i class=icon-heart&gt;&lt;/i&gt;&quot;  data-placement=&quot;top&quot;&gt;MDM&lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+
+&lt;!-- modal-gallery is the modal dialog used for the image gallery --&gt;
+&lt;div id=&quot;modal-gallery&quot; class=&quot;modal modal-gallery hide fade&quot; tabindex=&quot;-1&quot;&gt;
+    &lt;div class=&quot;modal-header&quot;&gt;
+        &lt;a class=&quot;btn pull-right&quot; data-dismiss=&quot;modal&quot;&gt;&lt;i class=&quot;icon-remove-circle&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;h3 class=&quot;modal-title&quot;&gt;&lt;/h3&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;modal-body&quot;&gt;&lt;div class=&quot;modal-image&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;modal-footer&quot;&gt;
+        &lt;a class=&quot;btn btn-primary modal-next&quot;&gt;Next &lt;i class=&quot;icon-arrow-right icon-white&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;a class=&quot;btn btn-info modal-prev&quot;&gt;&lt;i class=&quot;icon-arrow-left icon-white&quot;&gt;&lt;/i&gt; Previous&lt;/a&gt;
+        &lt;a class=&quot;btn btn-success modal-play modal-slideshow&quot; data-slideshow=&quot;5000&quot;&gt;&lt;i class=&quot;icon-play icon-white&quot;&gt;&lt;/i&gt; Slideshow&lt;/a&gt;
+        &lt;a class=&quot;btn modal-download&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-download&quot;&gt;&lt;/i&gt; Download&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- end modal-gallery --&gt;
+
+		&lt;footer&gt;
+			&lt;p class=&quot;pull-right&quot;&gt;
+				&lt;span title=&quot;&lt;i class=icon-info-sign&gt;&lt;/i&gt; &lt;strong&gt;Website Information&lt;/strong&gt;&quot; id=&quot;site_info-popo&quot; data-html=&quot;true&quot; data-trigger=&quot;hover&quot; data-content=&quot;This website is designed, developed and hosted by Mass Distribution Media on a Nodejitsu server. Powered by DocPad.&quot; data-placement=&quot;top&quot;&gt;&lt;i class=&quot;icon-info-sign icon-white&quot;&gt;&lt;/i&gt; Last updated at 2015-08-11T23:59:44.031Z&lt;/span&gt;
+			&lt;/p&gt;
+		&lt;/footer&gt;
+	&lt;/div&gt;&lt;!-- /container --&gt;
+
+	&lt;!-- Scripts --&gt;
+	&lt;script defer=&quot;defer&quot;  src=&quot;https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;assets/js/jquery-countdown.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;assets/js/jquery-tweet.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;assets/bootstrap/js/bootstrap-min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;assets/js/scripts.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;https://blueimp.github.com/JavaScript-Load-Image/load-image.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;scripts/bootstrap-image-gallery-min.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+</feed>
