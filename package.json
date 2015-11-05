@@ -40,17 +40,17 @@
     "docpad-plugin-cleanurls": "~2.6.2",
     "docpad-plugin-coffeescript": "~2.2.3",
     "docpad-plugin-eco": "~2.0.3",
+    "docpad-plugin-facebookcomments": "~2.0.4",
+    "docpad-plugin-feedr": "~2.7.0",
+    "docpad-plugin-ghpages": "^2.4.4",
     "docpad-plugin-less": "~2.4.0",
     "docpad-plugin-marked": "~2.2.0",
+    "docpad-plugin-nativecomments": "~2.1.1",
     "docpad-plugin-partials": "~2.8.1",
+    "docpad-plugin-services": "~2.5.0",
     "docpad-plugin-stylus": "~2.5.0",
     "docpad-plugin-text": "~2.3.2",
-    "docpad-plugin-feedr": "~2.7.0",
-    "docpad-plugin-nativecomments": "~2.1.1",
-    "docpad-plugin-services": "~2.5.0",
-    "docpad-plugin-facebookcomments": "~2.0.4",
-    "moment": "2.x",
-    "docpad-plugin-ghpages": "~2.4.2"
+    "moment": "2.x"
   },
   "devDependencies": {
     "docpad-plugin-livereload": "~2.5.6"

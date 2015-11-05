@@ -12,7 +12,7 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://solspike.com"
+			url: "solx.github.io/SolSpike"
 
 			services:
 				facebookAppId: '455533301199949'
@@ -48,24 +48,24 @@ docpadConfig = {
 
 			# Styles
 			styles: [
-				"/assets/bootstrap/css/bootstrap-min.css"
-        		"/styles/bootstrap-image-gallery-min.css"
-				"/assets/css/style.css"
-				"http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700"
-        		"http://fonts.googleapis.com/css?family=Patua+One"
-        		"http://fonts.googleapis.com/css?family=Allerta"
+				"assets/bootstrap/css/bootstrap-min.css"
+        		"styles/bootstrap-image-gallery-min.css"
+				"assets/css/style.css"
+				"https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700"
+        		"https://fonts.googleapis.com/css?family=Patua+One"
+        		"https://fonts.googleapis.com/css?family=Allerta"
 			]
 
 			# Scripts
 			scripts: [
-				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js",
-				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js",
-				"/assets/js/jquery-countdown.js"
-       			"/assets/js/jquery-tweet.js"
-        		"/assets/bootstrap/js/bootstrap-min.js"
-        		"/assets/js/scripts.js"
-        		"http://blueimp.github.com/JavaScript-Load-Image/load-image.min.js"
-        		"/scripts/bootstrap-image-gallery-min.js"
+				"https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js",
+				"https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js",
+				"assets/js/jquery-countdown.js"
+       			"assets/js/jquery-tweet.js"
+        		"assets/bootstrap/js/bootstrap-min.js"
+        		"assets/js/scripts.js"
+        		"https://blueimp.github.com/JavaScript-Load-Image/load-image.min.js"
+        		"scripts/bootstrap-image-gallery-min.js"
 			]
 
 

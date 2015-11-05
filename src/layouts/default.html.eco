@@ -22,7 +22,7 @@
 	<meta name="viewport" content="width=device-width" />
 
 	<!-- Icons -->
-    <link rel="shortcut icon" href="/assets/img/logo_sol-x.png">
+    <link rel="shortcut icon" href="assets/img/logo_sol-x.png">
 
 	<!-- Shims: IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
@@ -40,7 +40,7 @@
 		<div class="navbar-inner">
 			<div class="container">
 				<a title="<i class=icon-eye-open></i> <strong>Open Source</strong>" class="brand" href="/" id="github-popo" data-trigger="manual" data-content="This website is open-source on github. Contributions are of course welcomed and if that's your case, Thank you very much in advance! <i class=icon-heart></i>" data-placement="bottom">
-					<img id="icon-solx" class="pull-left sol-x_logo fixed-logo hide" src="/assets/img/logo_sol-x.png"alt="Sol-X logo"/>
+					<img id="icon-solx" class="pull-left sol-x_logo fixed-logo hide" src="assets/img/logo_sol-x.png"alt="Sol-X logo"/>
 					<% if @document.layout is "page" or @document.layout is "post": %>
 						<script>document.getElementById("icon-solx").classList.remove("hide");</script>
 					<% end %>
@@ -70,7 +70,7 @@
 	</div>
 	<a href="https://github.com/MassDistributionMedia/SolSpike.com" target="_blank"><img class="fork-me" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
 	<div class="container">
-		<base href="http://www.solspike.com/">
+		<base href="http://solx.github.io/SolSpike/">
 		<section id="content" class="content">
 			<%- @content %>
 
